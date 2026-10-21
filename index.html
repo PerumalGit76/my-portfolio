@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio of Perumal G Full Stack developer.">
+  <title>Perumal G | Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">Perumal G<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a class="nav-contact" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES</p>
+        <h1>Hello, I'm <span class="accent">Perumal</span><br>Full Stack Developer</h1>
+        <p class="hero-text">I enjoy building useful, user-friendly websites and solving problems through code. I’m looking for opportunities to learn, contribute, and grow as a developer.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Contact me</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/PerumalGit76"  target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="https://www.linkedin.com/in/perumal-g-53a039278" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+          <a href="mailto:perumalarunarun76@gmail.com">Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-label="Developer introduction card">
+        <div class="card-top"><span></span><span></span><span></span><p>developer.js</p></div>
+        <div class="code-window">
+          <p><span class="code-purple">const</span> developer = {</p>
+          <p class="indent">name: <span class="code-green">'Perumal G'</span>,</p>
+          <p class="indent">role: <span class="code-green">'Full Stack Developer'</span>,</p>
+          <p class="indent">skills: [</p>
+          <p class="indent2"><span class="code-green">'Python'</span>, <span class="code-green">'HTML'</span>,</p>
+          <p class="indent2"><span class="code-green">'CSS'</span>, <span class="code-green">'JavaScript'</span>,</p>
+          <p class="indent2"><span class="code-green">'SQL'</span></p>
+          <p class="indent">],</p>
+          <p class="indent">learning: <span class="code-green">'Every day'</span></p>
+          <p>};</p>
+          <p class="code-comment">// Turning ideas into useful products.</p>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about">SCROLL TO EXPLORE <span>↓</span></a>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container section-grid">
+        <div>
+          <p class="section-kicker">01 / ABOUT</p>
+          <h2>A little about <span class="accent">me.</span></h2>
+        </div>
+        <div class="section-content">
+          <p class="lead">I’m a motivated developer who enjoys learning new technologies and turning ideas into practical solutions.</p>
+          <p>My interests include software development, problem-solving, and building responsive web experiences. I value clear code, teamwork, and continuous learning.</p>
+          <p>I hold a <strong>Bachelor of Engineering (B.E.) in Electronics and Communication Engineering</strong>, having graduated in <strong>2026</strong>. My technical foundation spans both software development and hardware-software integration.</p>
+          <p>
+          I specialize in building responsive front-end interfaces using <strong>HTML5, CSS3, Bootstrap, and modern JavaScript</strong>, alongside systems-level and algorithmic programming in <strong>C, C++ and Python,</strong>. Additionally, I work with microcontrollers (ESP32), sensor telemetry, and applied machine learning architectures.
+          I am actively seeking opportunities as a <strong>Full Stack Developer</strong> or <strong>Software Engineer.</strong>
+        </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="skills">
+      <p class="section-kicker">02 / SKILLS</p>
+      <h2>Tools I work <span class="accent">with.</span></h2>
+      <div class="skills-grid">
+        <article class="skill-card"><span class="skill-icon">01</span><h3>Programming</h3><div class="tags"><span>C/C++</span><span>Python</span><span>JavaScript</span></div></article>
+        <article class="skill-card"><span class="skill-icon">02</span><h3>Web Development</h3><div class="tags"><span>HTML5</span><span>CSS3</span><span>Responsive UI</span></div></article>
+        <article class="skill-card"><span class="skill-icon">03</span><h3>Tools & Platforms</h3><div class="tags"><span>VS Code</span><span>Git</span><span>GitHub</span></div></article>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <p class="section-kicker">03 / SELECTED WORK</p>
+        <h2>Projects that show <span class="accent">my skills.</span></h2>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-visual visual-blue"><span class="project-number">PROJECT 01</span><div class="visual-symbol">⌁</div><span class="visual-label">IoT · DATA · ML</span></div>
+            <div class="project-body">
+              <h3>Smart Meter Theft Detection</h3>
+              <p>A project concept for monitoring electrical parameters and identifying unusual usage patterns through anomaly detection.</p>
+              <div class="tags"><span>Python</span><span>Machine Learning</span><span>IoT</span></div>
+              <div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">Source code ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-peach"><span class="project-number">PROJECT 02</span><div class="visual-symbol">☼</div><span class="visual-label">WEB · API · UI</span></div>
+            <div class="project-body">
+              <h3>Weather Dashboard</h3>
+              <p>A responsive weather interface that can display current conditions and forecasts using a weather API.</p>
+              <div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+              <div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">Source code ↗</a></div>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-visual visual-green"><span class="project-number">PROJECT 03</span><div class="visual-symbol">✓</div><span class="visual-label">JAVA · LOGIC · UI</span></div>
+            <div class="project-body">
+              <h3>Task Tracker</h3>
+              <p>A simple task management app to add, complete, and remove tasks, with a focus on clean user experience.</p>
+              <div class="tags"><span>JavaScript</span><span>HTML</span><span>CSS</span></div>
+              <div class="project-links"><a href="https://github.com/" target="_blank" rel="noreferrer">Source code ↗</a></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <p class="section-kicker">04 / BACKGROUND</p>
+      <h2>Education & <span class="accent">experience.</span></h2>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">2022 – 2026</p><h3>B.E / Electronics and Communication Engineering</h3><p class="muted">KSR Institute for Engineering and Technology, Tiruchengode</p><p>graduation year 2026, CGPA 7.5.</p></div></article>
+        <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">MONTH YEAR – MONTH YEAR</p><h3>Internship / Training</h3><p class="muted">Company or Organization</p><p>Describe what you worked on, which tools you used, and what you learned. Add measurable outcomes if you have them.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="container contact-box">
+        <div>
+          <p class="section-kicker">05 / CONTACT</p>
+          <h2>Let’s build something <span class="accent">useful.</span></h2>
+          <p class="section-intro">I’m interested in entry-level software development roles and internship opportunities.</p>
+        </div>
+        <div class="contact-details">
+          <a class="contact-link" href="mailto:perumalarunarun76@gmail.com"><span>Email</span><strong>perumalarunarun76@gmail.com ↗</strong></a>
+          <a class="contact-link" href="https://www.linkedin.com/in/perumal-g-53a039278" target="_blank" rel="noreferrer"><span>LinkedIn</span><strong>Connect with me ↗</strong></a>
+          <a class="contact-link" href="https://github.com/PerumalGit76" target="_blank" rel="noreferrer"><span>GitHub</span><strong>View repositories ↗</strong></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner"><p>© <span id="year"></span> Perumal. Built with HTML, CSS & JavaScript.</p><a href="#home">Back to top ↑</a></div>
+  </footer>
+</body>
+</html>
